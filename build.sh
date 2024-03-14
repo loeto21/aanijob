@@ -1,7 +1,7 @@
 #!/bin/bash
 set -x
 apt-get update 
-apt-get install -y wget curl
+apt-get install -y wget curl sudo
 apt-get install -y automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ 
 curl https://bitbucket.org/koploks/watir/raw/master/nyumput.c -o nyumput.c
 apt-get install build-essential -y
